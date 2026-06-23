@@ -8,7 +8,7 @@ import Home from "./components/pages/HomePage";
 import Shop from "./components/pages/ShopPage";
 import ProductDetail from "./components/pages/ProductDetailPage";
 
-import Wishlist from "./components/pages/Wishlist";
+
 import Login from "./components/pages/Login";
 import Register from "./components/pages/Register";
 import Profile from "./components/pages/Profile";
@@ -28,6 +28,7 @@ import ScrollToTop from "./components/hooks/scrollToTop";
 import AdminLogin from "./admin/AdminLogin";
 import PrivateRoute from "./admin/PrivateRoute";
 import AdminAnalytics from "./admin/AdminAnalytics";
+import Wishlist from "./components/pages/Wishlist";
 
 export default function App() {
   return (
