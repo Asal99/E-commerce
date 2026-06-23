@@ -19,7 +19,6 @@ import AdminDashboard from "./admin/AdminDashboard";
 import AdminOrders from "./components/pages/AdminOrders";
 import AdminProducts from "./admin/AdminProducts";
 
-import Checkout from "./components/pages/Checkout";
 import OrderSuccess from "./components/pages/OrderSuccess";
 import TrackOrder from "./components/pages/TrackOrder";
 import MyOrders from "./components/pages/MyOrders";
@@ -29,6 +28,7 @@ import AdminLogin from "./admin/AdminLogin";
 import PrivateRoute from "./admin/PrivateRoute";
 import AdminAnalytics from "./admin/AdminAnalytics";
 import Wishlist from "./components/pages/Wishlist";
+import CheckOut from "./components/pages/Checkout";
 
 export default function App() {
   return (
@@ -50,7 +50,7 @@ export default function App() {
           <Route path="/profile" element={<Profile />} />
 
           {/* NEW ORDER ROUTES */}
-          <Route path="/checkout" element={<Checkout />} />
+          <Route path="/checkout" element={<CheckOut />} />
 
           <Route path="/order-success/:id" element={<OrderSuccess />} />
 
