@@ -26,8 +26,9 @@ import ScrollToTop from "./components/hooks/scrollToTop";
 import AdminLogin from "./admin/AdminLogin";
 import PrivateRoute from "./admin/PrivateRoute";
 import AdminAnalytics from "./admin/AdminAnalytics";
-import WishList from "./components/pages/Wishlist";
+
 import CheckOut from "./components/pages/Checkout";
+import WishList from "./components/pages/Wishlist";
 
 export default function App() {
   return (
