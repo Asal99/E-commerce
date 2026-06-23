@@ -3,7 +3,7 @@ import { Trash2, Heart } from "lucide-react";
 import { ProductCard } from "../card/ProductCard";
 import { Link } from "react-router-dom";
 
-export default function Wishlist() {
+export default function WishList() {
   const [wishlist, setWishlist] = useState([]);
 
   useEffect(() => {

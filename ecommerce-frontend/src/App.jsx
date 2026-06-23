@@ -8,7 +8,6 @@ import Home from "./components/pages/HomePage";
 import Shop from "./components/pages/ShopPage";
 import ProductDetail from "./components/pages/ProductDetailPage";
 
-
 import Login from "./components/pages/Login";
 import Register from "./components/pages/Register";
 import Profile from "./components/pages/Profile";
@@ -27,7 +26,7 @@ import ScrollToTop from "./components/hooks/scrollToTop";
 import AdminLogin from "./admin/AdminLogin";
 import PrivateRoute from "./admin/PrivateRoute";
 import AdminAnalytics from "./admin/AdminAnalytics";
-import Wishlist from "./components/pages/Wishlist";
+import WishList from "./components/pages/Wishlist";
 import CheckOut from "./components/pages/Checkout";
 
 export default function App() {
@@ -45,7 +44,7 @@ export default function App() {
 
           <Route path="/cart" element={<Cart />} />
 
-          <Route path="/wishlist" element={<Wishlist />} />
+          <Route path="/wishlist" element={<WishList />} />
 
           <Route path="/profile" element={<Profile />} />
 
